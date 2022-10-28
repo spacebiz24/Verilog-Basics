@@ -1,2 +1,2 @@
 # Verilog-Stuff
-A repo containing some Verilog programs
+A few programs written in Verilog which do different things.
