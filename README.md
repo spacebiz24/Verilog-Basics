@@ -26,3 +26,5 @@ ___
   - JK Flip-Flop
   - D Flip-Flop
   - Priority Encoder
+  - Ring Counter
+  - Johnson Counter
