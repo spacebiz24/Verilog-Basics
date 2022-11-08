@@ -28,3 +28,4 @@ ___
   - Priority Encoder
   - Ring Counter
   - Johnson Counter
+  - Gray Counter
