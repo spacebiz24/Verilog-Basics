@@ -29,3 +29,7 @@ ___
   - Ring Counter
   - Johnson Counter
   - Gray Counter
+
+## To - Do:
+- [ ] Moore State Machine
+- [ ] Mealy State Machine
