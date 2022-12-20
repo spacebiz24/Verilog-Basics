@@ -33,3 +33,4 @@ ___
 ## To - Do:
 - [ ] Moore State Machine
 - [ ] Mealy State Machine
+- [ ] Traffic Light Controller
