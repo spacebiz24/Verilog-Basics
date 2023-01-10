@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 10.01.2023 23:26:33
+// Create Date: 10.01.2023 18:45:12
 // Design Name: 
-// Module Name: Multiply_Function
+// Module Name: Factorial_Task
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,19 +20,22 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Multiply_Function(a, b, res);
-input [4:0]a, b;
-output reg [7:0]res;
-
-function [7:0]product;
-    input [4:0]a, b;
+module Factorial_Task(num, res);
+input [3:0]num;
+output reg [15:0]res;
+task Fact;
+    input reg[3:0]num;
     begin
-        product = a * b;
+        res = 1;
+        while (num != 1)
+        begin
+            res = res * num;
+            num = num - 1;
+        end
     end
-endfunction
-
-always @ (a or b)
+endtask
+always @ (num)
 begin
-    res = product(a, b);
+    Fact(num);
 end
 endmodule
