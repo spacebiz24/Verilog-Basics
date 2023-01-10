@@ -29,6 +29,8 @@ ___
   - Ring Counter
   - Johnson Counter
   - Gray Counter
+  - Factorial Task
+  - Multiply Function
 
 ## To - Do:
 - [ ] Moore State Machine
