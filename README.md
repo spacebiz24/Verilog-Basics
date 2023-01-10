@@ -31,9 +31,8 @@ ___
   - Gray Counter
   - Factorial Task
   - Multiply Function
+  - Traffic Signal Controller
 
 ## To - Do:
-- [ ] Moore State Machine
-- [ ] Mealy State Machine
-- [ ] Traffic Light Controller
-- [ ] Serial Adder
+- [ ] Serial Adder Mealy
+- [ ] Serial Adder Moore
