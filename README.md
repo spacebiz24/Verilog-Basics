@@ -34,3 +34,4 @@ ___
   - Traffic Signal Controller
   - Serial Adder Mealy
   - Serial Adder Moore
+  - Decimal Num Task
