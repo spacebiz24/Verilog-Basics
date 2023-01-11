@@ -32,7 +32,5 @@ ___
   - Factorial Task
   - Multiply Function
   - Traffic Signal Controller
-
-## To - Do:
-- [ ] Serial Adder Mealy
-- [ ] Serial Adder Moore
+  - Serial Adder Mealy
+  - Serial Adder Moore
