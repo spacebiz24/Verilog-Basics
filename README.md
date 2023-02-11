@@ -1,7 +1,10 @@
 # Verilog-Stuff
+
 A few programs written in Verilog which do different things.
 ___
-## Programs List:
+
+## Programs List
+
 - Gate Level:
   - 2 Bit Comparator
   - MUX
@@ -13,6 +16,7 @@ ___
   - Buffers
 
 - Data Flow:
+  - Comparator
   - Encoder
   - Decoder
   - MUX
