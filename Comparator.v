@@ -17,8 +17,8 @@ output Great, Less, Equal;
 wire [size-2:0]Prev_Great, Prev_Less, Prev_Equal;
 
 comparator1bit xbit [size-1:0] (
-						.a(a), .b(b),
-						.Prev_Great({Prev_Great,1'b0}), .Prev_Less({Prev_Less,1'b0}), .Prev_Equal({Prev_Equal,1'b1}),
-						.Great({Great,Prev_Great}), .Less({Less,Prev_Less}), .Equal({Equal,Prev_Equal})
-						);
+				.a(a), .b(b),
+				.Prev_Great({Prev_Great,1'b0}), .Prev_Less({Prev_Less,1'b0}), .Prev_Equal({Prev_Equal,1'b1}),
+				.Great({Great,Prev_Great}), .Less({Less,Prev_Less}), .Equal({Equal,Prev_Equal})
+			       );
 endmodule
