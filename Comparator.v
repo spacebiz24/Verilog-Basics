@@ -2,6 +2,7 @@ module comparator1bit (a, b, Prev_Great, Prev_Less, Prev_Equal, Great, Less, Equ
 input a, b;
 input Prev_Great, Prev_Less, Prev_Equal;
 output Great, Less, Equal;
+
 wire Curr_Equal = ~(a ^ b);
 
 assign Great = (a & ~b) | (Curr_Equal & Prev_Great);
@@ -12,6 +13,7 @@ endmodule
 module comparatorxbit #(parameter size = 4) (a, b, Great, Less, Equal);
 input [size-1:0]a, b;
 output Great, Less, Equal;
+
 wire [size-2:0]Prev_Great, Prev_Less, Prev_Equal;
 
 comparator1bit xbit [size-1:0] (
